@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'Minecraft';
+    src:url(./assets/Minecraft.otf)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Minecraft';
+    font-weight: 100;
+}

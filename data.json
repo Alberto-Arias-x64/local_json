@@ -1,0 +1,14 @@
+[
+    {
+        "REF": "title",
+        "EN": "This is my title in english",
+        "ES": "Este es mi titulo en español",
+        "RU": "Это мой титул на английском языке"
+    },
+    {
+        "REF": "description",
+        "EN": "This is my description on english",
+        "ES": "Esta es mi descripcion en español",
+        "RU": "Это мое описание на английском языке"
+    }
+]
