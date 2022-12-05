@@ -1,6 +1,6 @@
 import data from './data.json' assert{type: 'json'}
 
-window.loader = (language = 'EN') => {
+const loader = (language = 'EN') => {
     data.map(element => {
         const html_element = document.getElementById(element.REF)
         language_selector(element, html_element, language)
@@ -13,3 +13,6 @@ const language_selector = (element , html_element, language = 'EN') => {
     if (language === 'RU') return html_element.innerText = element.RU
     return html_element.innerText = element.EN
 }
+
+document.querySelector('body').onload = loader('ES')
+document.querySelector('select').onchange = loader()
